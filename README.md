@@ -6,25 +6,25 @@ kickstarter campaign analysis
 
 This project is designed to identify the best and worst months to commence a money-fund campaign for a theater. It also identifies the probability of running a successful campaign based on the fund goal for a play.
 
-##### Purpose
+#### Purpose
 This project is designed to identify the best campaign strategy for writers seeking to begin a fund-raising campaign to fund their projects. 
 
 
 ## **Analysis and Challenges**
 
-##### Analysis of Outcomes Based on Launch Date
+#### Analysis of Outcomes Based on Launch Date
 The objective in this portion of the analysis was to identify the best and worst months of the year to start a crowd-funding campaign for a theater project. The analysis was administered by using data on campaigns for the theater category, date each campaign commenced, and outcome of the campaign. Utilizing pivot tables, the data was manipulated to focus on the exact month the campaign commenced, and whether the campaign was successful, failed, or cancelled. Finally, the results of this analysis were depicted in a line chart (Theater Outcomes vs Launch Date) that depicts the relationship between the month the campaign commenced (x-axis) and the outcome of the campaign on the y-axis.
 
 ![Theater_Outcomes_vs_Launch](https://github.com/OmarQasem94/Kickstarter-Analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
 
-##### Analysis of Outcomes Based on Goals
+#### Analysis of Outcomes Based on Goals
 The objective of this portion of the analysis was to identify the probability of running a successful campaign meant to fund a play based on the desired fund goal. The analysis commences using data on the requested campaign goal and the outcome of the campaign. The data was manipulated and categorized based on the dollar amount range that each play falls under and whether the campaign was successful, failed, or cancelled. After the categories were assembled the total number of successes, failures, and cancellations for each range were identified and used to identify the probability of running a successful, failed, or cancelled campaign based on the funding goal set. Finally, the results were depicted in a line chart with the goal-amount ranges depicted on the x-axis and the percentage of successful, failed, and cancelled projects on the y-axis.
 
 ![Outcomes_vs_Goals](https://github.com/OmarQasem94/Kickstarter-Analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 
 
-##### Challenges and Difficulties Encountered
+#### Challenges and Difficulties Encountered
 The primary challenges faced with administering analysis were related to the quality of the data. The data on the dates the campaigns were created are provided in Unix time stamp format which needed to be transformed into a readable format. Furthermore, the data on the category of the campaign required manipulation to further stratify the data into subcategories.
 
 
